@@ -21,3 +21,8 @@ SELECT DISTINCT CITY
 FROM STATION 
 WHERE LEFT(CITY,1) IN ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U');
 
+--                   (OR)
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE LOWER(CITY) RLIKE '^[aeiouAEIOU]';
