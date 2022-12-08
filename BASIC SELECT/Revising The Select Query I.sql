@@ -1,5 +1,7 @@
 
- /* The CITY table is described as follows: 
+ /* Query all columns for all American cities in CITY with populations larger than 100000. The CountryCode for America is USA.
+ 
+ The CITY table is described as follows: 
 +-------------+----------+
 | Field       | Type     |
 +-------------+----------+
@@ -9,7 +11,7 @@
 | District    | char(20) |
 | Population  | int(11)  |
 +-------------+----------+
-Query all columns for all American cities in CITY with populations larger than 100000. The CountryCode for America is USA. */
+ */
 
 
 SELECT * FROM CITY 
