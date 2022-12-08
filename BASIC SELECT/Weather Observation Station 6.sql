@@ -12,13 +12,12 @@ Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from 
 
 SELECT DISTINCT CITY 
 FROM STATION 
-WHERE SUBSTRING(CITY,1,1) IN ('a', 'e', 'i', 'o', 'u');
-
+WHERE SUBSTRING(CITY,1,1) IN ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U');
 
 --                   (OR)
 
 
 SELECT DISTINCT CITY 
 FROM STATION 
-WHERE LEFT(CITY,1) IN ('a', 'e', 'i', 'o', 'u');
+WHERE LEFT(CITY,1) IN ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U');
 
