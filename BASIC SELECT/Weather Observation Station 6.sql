@@ -25,4 +25,4 @@ WHERE LEFT(CITY,1) IN ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U');
 
 SELECT DISTINCT CITY
 FROM STATION
-WHERE LOWER(CITY) RLIKE '^[aeiouAEIOU]';
+WHERE CITY RLIKE '^[aeiouAEIOU]';
