@@ -1,7 +1,7 @@
 
  /* Query all columns for all American cities in CITY with populations larger than 100000. The CountryCode for America is USA.
  
- The CITY table is described as follows: 
+ The CITY table is described as below: 
 +-------------+----------+
 | Field       | Type     |
 +-------------+----------+
