@@ -10,7 +10,7 @@
 | Population  | int(11)  |
 +-------------+----------+
 
-Query the total population of all cities in CITY where District is California. */
+Query the total population of all cities in the CITY table where District is California. */
 
 
 SELECT SUM(POPULATION) FROM CITY 
