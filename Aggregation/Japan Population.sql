@@ -1,4 +1,4 @@
-/* The CITY table is described as follows: 
+/* The CITY table is described as below: 
 +-------------+----------+
 | Field       | Type     |
 +-------------+----------+
