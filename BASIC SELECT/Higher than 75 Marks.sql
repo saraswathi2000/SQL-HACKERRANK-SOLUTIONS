@@ -1,4 +1,4 @@
-/* The STUDENTS table is described as follows:
+/* The STUDENTS table is described as below:
 
 +-------------+----------+
 | Column      | Type     |
